@@ -1,0 +1,16 @@
+{
+  "name": "@sparkchan/memeos",
+  "version": "0.1.0",
+  "description": "Lightweight MemeVM SDK for building meme dApps.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "demo": "node examples/basic.js"
+  },
+  "bin": {
+    "memeos": "cli/index.js"
+  },
+  "license": "MIT"
+}
